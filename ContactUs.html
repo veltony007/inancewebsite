@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+     * {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        body {
+            font-family: "Lato", sans-serif;
+            color: #040000;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+
+        }
+        .nav a:hover {
+    color: #0355cc;
+}
+.imge-box:hover {
+    background-color: #ff8a1d;
+}
+
+         .sub-header {
+            background-color: black;
+            
+
+        }
+         header {
+            background-color: #D1E3FF;
+            width: 100%;
+       
+        }
+                .lem1 {
+            display: flex;
+            gap: 10px;
+          
+
+        }
+        .menu-icon{
+        	display:none;
+        }
+           .lem1 a{
+ font-size: 16px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .f-x a {
+    text-decoration: none;
+    color: #fff;
+}
+
+        .icons {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding:20px;
+        }
+        .menu {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.web-name a {
+    color: #0355cc;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+      text-decoration: none;
+}
+    .nav {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    }
+    .nav a {
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: .25px;
+    color: #1e1e1e;
+    text-decoration: none;
+}
+.menu_icons {
+            display: none;
+        }
+        .last-info {
+    background-color: #0a0f43;
+}
+
+.gen {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 40px;
+    padding: 80px 0px;
+}
+.wed {
+    display: flex;
+    width: 100%;
+    gap: 70px;
+    padding-top: 20px;
+}
+.mad {
+    width: 50%;
+}
+
+.mad input {
+    width: 100%;
+    height: 50px;
+    border: none;
+   	outline: none;
+}
+  .iet{
+        	padding-left: 25px;
+        
+            box-shadow: 0 0 7px 0 rgba(0, 0, 0, .2);
+             margin-bottom: 25px;
+             
+        }
+   input.message-box {
+            height: 130px;
+            padding-left: 25px;
+        
+            box-shadow: 0 0 7px 0 rgba(0, 0, 0, .2);
+             margin-bottom: 25px;
+             width:95%;
+             
+        }
+.vtn a {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 45px;
+    background-color: #0355cc;
+    border: 1px solid #0355cc;
+    border-radius: 0;
+    color: #fff;
+    text-decoration: none;
+}
+.map {
+    width: 50%;
+}
+.algin iframe {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+}
+.last-info {
+    background-color: #0a0f43;
+}
+.f-x a {
+    text-decoration: none;
+    color: #fff;
+}
+.contact-us{
+	padding:120px 0px;
+}
+.confr {
+    border-top: 1px solid #fff;
+}
+ .infor {
+            display: flex;
+            justify-content: center;
+        }
+        .last-head1 h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+        .mark {
+            width: 33.33%;
+            position: relative;
+            z-index: 100;
+        }
+
+        .gen {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 40px;
+            padding: 80px 0px;
+        }
+           .img-box{
+           	  color:#555089;
+           }
+           .img-box:hover{
+           	  color:#fff;
+           }
+           .img-box h5:hover{
+           	color:#fff;
+           }
+
+        .imge-box {
+            width: 80px;
+            height: 80px;
+            border-radius: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+            line-height: 100px;
+            background-color: #0355cc;
+            color: #fff;
+            position: relative;
+            z-index: 50;
+
+        }
+        .ink{
+        	 position: absolute;
+        	 width:auto;
+        	 bottom:-35px;
+        	 left:21%;
+        	 transform: translateX(-50%);
+        }
+         .ink2{
+        	 position: absolute;
+        	 width:auto;
+        	 bottom:-35px;
+        	 left:50%;
+        	 transform: translateX(-50%);
+        }
+         .ink3{
+        	 position: absolute;
+        	 width:auto;
+        	 bottom:-35px;
+        	 left:90%;
+        	 transform: translateX(-50%);
+        }
+        .mark::before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 2px;
+            background-color: white;
+            top: 45%;
+            transform: translateY(50%);
+            z-index: 1;
+
+        }
+        .detail-box{
+        	display: flex;
+    flex-direction: column;
+        }
+
+        .menu_icons {
+            display: none;
+        }
+
+        .mark_3 {
+            display: flex;
+            justify-content: end;
+        }
+
+        .mark_2 {
+            display: flex;
+            justify-content: center;
+        }
+        .heading_center{
+        	padding:120px 0px;
+        }
+
+        .ben {
+            display: flex;
+            justify-content: center;
+        }
+
+        .ite2 p {
+            color: #fff;
+          font-size:16px;
+font-weight:400;
+line-height:24px;
+}
+
+        
+        .last-head1 h4{
+        	padding-top:25px;
+        }
+
+        .xen {
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+        }
+        
+
+        .pen {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .wit {
+            background-color: #fff;
+            display: flex
+;
+    gap: 10px;
+    align-items: center;
+    padding:5px;
+        }
+      .ket{
+      	position:relative;
+      }
+      .ge{
+      	 position:relative;
+      }
+        .f-x {
+            margin: 0;
+            padding: 25px 0;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+
+        }
+                       .ite2 a {
+            color: #fff;
+          font-size:16px;
+font-weight:400;
+line-height:24px;
+text-decoration: none;
+}
+.mad a:hover {
+    background-color: #fff;
+    color: #0355cc;
+}
+.mad a {
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 55px;
+    background-color: #0355cc;
+    border: 1px solid #0355cc;
+    border-radius: 0;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.message-box {
+    display: flex
+;
+    width: 96%;
+    border: none;
+    outline: none;
+}
+ .active {
+         	color:blue !important;
+         }
+textarea {
+    height: 130px;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .2);
+    margin-bottom: 25px;
+    resize: none;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+ .menu-checkbox:checked + .menu-2 {
+           display: block;
+            }
+            .menu-checkbox {
+    display: none;
+}
+.menu-icon {
+    display: none;
+}
+.menu-2 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+}
+.info_section{
+	display:none;
+}
+ @media (max-width:1024px) {
+            .container {
+                padding: 0px 25px 0px 25px;
+                overflow:hidden;
+            }
+                        .contact-us {
+    padding: 60px 0px;
+}
+.gen {
+
+    width: 90%;
+    
+}
+ .ink{
+         	text-align: center;
+            bottom:-50px;
+         }
+
+
+        }
+          @media (max-width:768px){
+        	 .nav {
+                display: none;
+            }
+                    
+                      .menu_icons {
+        
+        left: 85%;
+        z-index: 10000;
+    }
+    .header-area {
+        background-color: #cddbf1;
+        position: fixed;
+    }
+   
+    .menu-2 ul li a {
+    color: white;
+    text-decoration: none;
+}
+    .menu-2 ul li {
+         padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    }
+    .menu-icon{
+	display: block;
+}
+             .menu-checkbox:checked~.menu-2{
+  	left:0;
+  }
+      .menu_icons {
+        display: block;
+        position: fixed;
+        top: 5px;
+        left: 93%;
+    }
+      .menu-2 ul {
+        height: 90vh;
+        display: flex
+;
+        list-style-type: none;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menu-2 ul li {
+    margin: 10px 0;
+}
+   .menu-2 {
+    	display:block;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        bottom: 0;
+       
+         left: -100vh;
+        text-align: center;
+       background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+   
+        transition: all 0.3s;
+        transition-timing-function: ease-in-out;
+       
+    }
+                .sub-header {
+        display: none;
+    }
+            .menu_icons{
+            	display:block;
+            }
+              .gen{
+            	padding: 30px 0px;
+            }
+             .header-area {
+         
+         z-index: 10000;
+       
+          
+           }
+          }
+           @media (max-width:425px){
+           	    .wed {
+        flex-direction: column;
+    }
+    .menu_icons {
+        left: 90%;
+    }
+    .social-box{
+	display:flex;
+	flex-direction: column;
+        gap: 30px;
+                align-items: center;
+}
+      .last-head1 h4 {
+            font-size: 30px;
+
+        }
+        .confr1{
+        	border-top: 1px solid #fff;
+    width: 80%;
+        }
+
+        .f-x {
+            font-size: 15px;
+
+        }
+    .mad{
+    	width:100%;
+    }
+    .map{
+    	width:100%;
+    }
+        .mark::before {
+        top: 45%;
+    }
+    .detail-box p{
+    	font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 1px;
+            
+    }
+     .last-head1 h4 {
+            font-size: 20px;
+
+        }
+        .f-x {
+            font-size: 14px;
+
+        }
+    
+     .last-info{
+          	display:none;
+          }
+           .info_section{
+        	display:block;
+        } 
+    
+        .info_section {
+    padding: 50px 0;
+    background-color: #0a0f43;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.info_section h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:24px;
+font-weight:700;
+        padding-bottom: 20px;
+}
+.item a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin-top: 25px;
+        margin-bottom: 20px;
+        background-color: #0a0f43;
+}
+
+.row {
+  
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.info_items {
+    position: relative;
+}
+    .info_section .info_items::before {
+        width: 1px;
+        height: 90%;
+        top: 25px;
+    }
+    .info_items::before{
+    	    content: "";
+    position: absolute;
+    background-color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    .col-md-4{
+    	    position: relative;
+    width: 100%;
+    }
+    .info_items .item .img-box {
+       width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 100px;
+    background-color: #0355cc;
+    color: #fff;
+    position: relative;
+    z-index: 50;
+}
+.info_items .item p {
+    margin-top: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+    background-color: #0a0f43;
+    
+}
+.info_items .item {
+    
+    display: flex
+;
+    
+    flex-direction: column;
+    
+    align-items: center;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+ .header-area {
+         
+         z-index: 10000;
+       
+          
+           }
+
+           }
+             @media (max-width:320px){
+  .detail-box a {
+        width: 35%;
+    }
+      .about{
+            	padding: 30px 0px;
+            }
+                .menu_icons {
+        left: 85%;
+    }
+     .header-area {
+         
+         z-index: 10000;
+       
+          
+           }
+ }
+
+    </style>
+    </head>
+    <body>
+    	  <div class="sub-header">
+            <div class="ram">
+                <div class="icons">
+                    <div class="lem1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                            <path fill="#f35525"
+                                d="m19.23 15.26l-2.54-.29a1.99 1.99 0 0 0-1.64.57l-1.84 1.84a15.05 15.05 0 0 1-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52a2 2 0 0 0-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07c.53 8.54 7.36 15.36 15.89 15.89c1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98" />
+                        </svg>
+                        <a href="tel:+01 123455678990">Call : +01 123455678990 </a>
+
+                    </div>
+                    <div class="lem1">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g fill="#f35525" fill-rule="evenodd" clip-rule="evenodd">
+                                <path
+                                    d="M17 3.5H3a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-11a1 1 0 0 0-1-1m-13 11v-9h12v9z" />
+                                <path
+                                    d="m17.648 5.261l-7.045 6a1 1 0 0 1-1.301-.004l-6.955-6C1.645 4.652 2.073 3.5 3 3.5h14c.93 0 1.356 1.158.648 1.761M5.69 5.5l4.27 3.683L14.282 5.5z" />
+                            </g>
+                        </svg>
+                          <a href="mailto:mail@domain.com"> Email : mail@domain.com</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </div>
+       <header class="header-area">
+        <div class="we">
+            <div class="te">
+                <nav class="menu">
+                    <div class="web-name">
+                        <a href="index.html">Inance</a>
+                    </div>
+                    <ul class="nav">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a  href="About.html">About</a>
+                        </li>
+                        <li>
+                            <a href="service.html">Service Us</a>
+                        </li>
+                        <li>
+                            <a class="active" href="">Contact Us</a>
+                        </li>
+
+                    </ul>
+                                       <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+                                   <label for="menu-toggle" class="menu-icon">
+	 <div class="menu_icons">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><g class="menu-outline"><path fill="#0355cc" fill-rule="evenodd" d="M3 7a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1m0 5a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1m0 5a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1" class="Vector 38 (Stroke)" clip-rule="evenodd"/></g></svg>  
+
+                    </div>
+</label>
+                                     <nav class="menu-2">
+   
+    <ul>
+       <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="About.html">About</a>
+                        </li>
+                        <li>
+                            <a href="service.html">Service Us</a>
+                        </li>
+                        <li>
+                            <a class="active" href="ContactUs.html">Contact Us</a>
+                        </li>
+  </ul>
+</nav>
+
+                   
+
+
+                </nav>
+            </div>
+        </div>
+        </header>
+
+    <section class="contact-us">
+        <div class="container">
+            <div class="ze1">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="wed">
+                <div class=mad>
+                    <from>
+                        <div class=iet>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class=iet>
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+                        <div class=iet>
+                            <input type="email" placeholder="Email">
+                        </div>
+                         <textarea class="message-box" placeholder="Message" rows="4" cols="50"></textarea>
+                            
+                            <a href="#">SEND</a>
+                    </from>
+                </div>
+                <div class="map">
+                    <div class="algin">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1549.2185418572717!2d2.292874091982267!3d48.8580298022778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e1!3m2!1sen!2sin!4v1732021160181!5m2!1sen!2sin"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                <footer class="last-info">
+        <div class="container ben">
+            <div class="gen">
+                <div class="last-head1">
+                    <h4>Get In Touch</h4>
+                </div>
+                <div class="ket">
+                        <div class="infor">
+                            <div class="he">
+
+                            </div>
+                            <div class="mark">
+       
+                                    <div class="ite2">
+                                        <div class="imge-box">
+                                            <div class="icola"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                                                    height="30" viewBox="0 0 16 16">
+                                                    <path fill="currentColor"
+                                                        d="m7.385 15.293l-.192-.13a18 18 0 0 1-2.666-2.283C3.1 11.385 1.5 9.144 1.5 6.499C1.5 3.245 4.141 0 8 0s6.5 3.245 6.5 6.5c0 2.645-1.6 4.886-3.027 6.379a18 18 0 0 1-2.666 2.283q-.122.085-.192.13c-.203.135-.41.263-.615.393c-.205-.13-.412-.258-.615-.392M8 8.5a2 2 0 1 0 0-4a2 2 0 0 0 0 4" />
+                                                </svg>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="ink">
+                                        	<p>
+                      Lorem Ipsum is simply dummy text
+                    </p>
+                                        </div>
+                                    </div>
+                        
+                            </div>
+                            <div class="mark mark_2">
+          
+                                    <div class="ite2">
+                                        <div class="imge-box">
+                                            <div class="icola">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    iewBox="0 0 24 24">
+                                                    <path fill="currentColor"
+                                                        d="m7.18 10.27l6.504 6.46c.697-.807 5.11-5.538 7.316.924c0 0-.232 3.346-4.994 3.346c-3.367 0-6.851-4.038-9.29-6.346C4.626 12.692 3 10.154 3 7.846C3 3.116 6.252 3 6.252 3c7.432 2.538.929 7.27.929 7.27" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                                      <div class="ink2">
+                                                      	                             <a href="tel:+01 123455678990">+01 123455678990 </a>
+                                               </div>
+                                    </div>
+                   
+                            </div>
+                            
+                            <div class="mark mark_3">
+                                    <div class="ite2">
+                                        <div class="imge-box">
+                                            <div class="icola">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    viewBox="0 0 20 20">
+                                                    <g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+                                                        <path
+                                                            d="M17 3.5H3a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-11a1 1 0 0 0-1-1m-13 11v-9h12v9z" />
+                                                        <path
+                                                            d="m17.648 5.261l-7.045 6a1 1 0 0 1-1.301-.004l-6.955-6C1.645 4.652 2.073 3.5 3 3.5h14c.93 0 1.356 1.158.648 1.761M5.69 5.5l4.27 3.683L14.282 5.5z" />
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                                      <div class="ink3">
+                                              <a href="mailto:mail@domain.com">mail@domain.com</a>
+                                        </div>
+                                    </div>
+          
+                    
+                            </div>
+                        </div>
+                </div>
+                <div class="xen">
+                    <div class="last-head1">
+                        <h4>follow us</h4>
+                    </div>
+                    <div class="pen">
+                        <div class="wit">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#0355cc" d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 14 14"><g fill="none"><g clip-path="url(#primeTwitter0)"><path fill="#0355cc" d="M11.025.656h2.147L8.482 6.03L14 13.344H9.68L6.294 8.909l-3.87 4.435H.275l5.016-5.75L0 .657h4.43L7.486 4.71zm-.755 11.4h1.19L3.78 1.877H2.504z"/></g><defs><clipPath id="primeTwitter0"><path fill="#fff" d="M0 0h14v14H0z"/></clipPath></defs></g></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16">
+                                <path fill="#0355cc"
+                                    d="M6.6 0h-.9l-.6 2.3L4.5 0h-1c.2.6.4 1.1.6 1.7c.3.8.5 1.5.5 1.9V6h.9V3.6zM9 4.5V3c0-.5-.1-.8-.3-1.1s-.5-.4-.9-.4s-.7.2-.9.5c-.2.2-.3.5-.3 1v1.6c0 .5.1.8.3 1c.2.3.5.4.9.4s.7-.2.9-.5c.2-.1.3-.5.3-1m-.8.2c0 .4-.1.6-.4.6s-.4-.2-.4-.6V2.8c0-.4.1-.6.4-.6s.4.2.4.6zM12 6V1.5h-.8v3.4c-.2.3-.3.4-.5.4c-.1 0-.2-.1-.2-.2V1.5h-.8V5c0 .3 0 .5.1.7c0 .2.2.3.5.3s.6-.2.9-.5V6zm.4 4.5c-.3 0-.4.2-.4.6v.4h.8v-.4c0-.4-.1-.6-.4-.6m-2.9 0c-.1 0-.3.1-.4.2v2.7c.1.1.3.2.4.2q.3 0 .3-.6v-1.9q0-.6-.3-.6" />
+                                <path fill="#0355cc"
+                                    d="M14.4 8.3C14.2 7.6 13.6 7 13 7c-1.6-.2-3.3-.2-5-.2s-3.3 0-5 .2c-.6 0-1.2.6-1.4 1.3c-.2 1-.2 2.1-.2 3.1s0 2.1.2 3.1c.2.7.7 1.2 1.4 1.3c1.7.2 3.3.2 5 .2s3.3 0 5-.2c.7-.1 1.3-.6 1.4-1.3c.2-1 .2-2.1.2-3.1s0-2.1-.2-3.1m-9.2.9h-1v5.1h-.9V9.2h-.9v-.9h2.8zm2.4 5.1h-.8v-.5c-.3.4-.6.5-.9.5s-.4-.1-.5-.3c0-.1-.1-.3-.1-.7V9.8h.8v3.5c0 .1.1.2.2.2c.2 0 .3-.1.5-.4V9.8h.8zm3-1.4c0 .4 0 .7-.1.9c-.1.3-.3.5-.6.5s-.6-.2-.8-.5v.4h-.8V8.3h.8v1.9c.3-.3.5-.5.8-.5s.5.2.6.5c.1.2.1.5.1.9zm3-.7H12v.8c0 .4.1.6.4.6c.2 0 .3-.1.4-.3v-.5h.8v.6c0 .2-.1.3-.2.5c-.2.3-.5.5-1 .5c-.4 0-.7-.2-1-.5c-.2-.2-.3-.6-.3-1v-1.5c0-.5.1-.8.2-1c.2-.3.5-.5 1-.5c.4 0 .7.2.9.5c.2.2.2.6.2 1v.8z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#0355cc"
+                                    d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="confr">
+                    <p class="f-x">© <span id="displayDateYear">2024</span> All Rights Reserved <a target="_blank"
+                            rel="nofollow noopener" href="//html.design/">ABOSS</a></p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+      <footer class="info_section ">
+    <div class="container">
+      <h4>
+        Get In Touch
+      </h4>
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="info_items">
+            <div class="row">
+              <div class="col-md-4">
+                <a href="">
+                  <div class="item ">
+                    <div class="img-box ">
+                         <div class="icola"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                                                    height="30" viewBox="0 0 16 16">
+                                                    <path fill="currentColor"
+                                                        d="m7.385 15.293l-.192-.13a18 18 0 0 1-2.666-2.283C3.1 11.385 1.5 9.144 1.5 6.499C1.5 3.245 4.141 0 8 0s6.5 3.245 6.5 6.5c0 2.645-1.6 4.886-3.027 6.379a18 18 0 0 1-2.666 2.283q-.122.085-.192.13c-.203.135-.41.263-.615.393c-.205-.13-.412-.258-.615-.392M8 8.5a2 2 0 1 0 0-4a2 2 0 0 0 0 4" />
+                                                </svg>
+                                                
+                                            </div>
+                    </div>
+                    <p>
+                      Lorem Ipsum is simply dummy text
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="">
+                  <div class="item ">
+                    <div class="img-box ">
+                        <div class="icola">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    iewBox="0 0 24 24">
+                                                    <path fill="currentColor"
+                                                        d="m7.18 10.27l6.504 6.46c.697-.807 5.11-5.538 7.316.924c0 0-.232 3.346-4.994 3.346c-3.367 0-6.851-4.038-9.29-6.346C4.626 12.692 3 10.154 3 7.846C3 3.116 6.252 3 6.252 3c7.432 2.538.929 7.27.929 7.27" />
+                                                </svg>
+                                            </div>
+                    </div>
+                    	<a href="tel:+01 123455678990">+01 123455678990 </a>
+                    
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="">
+                  <div class="item ">
+                    <div class="img-box">
+                      <div class="icola">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    viewBox="0 0 20 20">
+                                                    <g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+                                                        <path
+                                                            d="M17 3.5H3a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-11a1 1 0 0 0-1-1m-13 11v-9h12v9z" />
+                                                        <path
+                                                            d="m17.648 5.261l-7.045 6a1 1 0 0 1-1.301-.004l-6.955-6C1.645 4.652 2.073 3.5 3 3.5h14c.93 0 1.356 1.158.648 1.761M5.69 5.5l4.27 3.683L14.282 5.5z" />
+                                                    </g>
+                                                </svg>
+                                            </div>
+                    </div>
+                     <a href="mailto:mail@domain.com"> mail@domain.com</a>
+                    
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="social-box">
+      <h4>
+        Follow Us
+      </h4>
+              <div class="pen">
+                        <div class="wit">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#0355cc" d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 14 14"><g fill="none"><g clip-path="url(#primeTwitter0)"><path fill="#0355cc" d="M11.025.656h2.147L8.482 6.03L14 13.344H9.68L6.294 8.909l-3.87 4.435H.275l5.016-5.75L0 .657h4.43L7.486 4.71zm-.755 11.4h1.19L3.78 1.877H2.504z"/></g><defs><clipPath id="primeTwitter0"><path fill="#fff" d="M0 0h14v14H0z"/></clipPath></defs></g></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16">
+                                <path fill="#0355cc"
+                                    d="M6.6 0h-.9l-.6 2.3L4.5 0h-1c.2.6.4 1.1.6 1.7c.3.8.5 1.5.5 1.9V6h.9V3.6zM9 4.5V3c0-.5-.1-.8-.3-1.1s-.5-.4-.9-.4s-.7.2-.9.5c-.2.2-.3.5-.3 1v1.6c0 .5.1.8.3 1c.2.3.5.4.9.4s.7-.2.9-.5c.2-.1.3-.5.3-1m-.8.2c0 .4-.1.6-.4.6s-.4-.2-.4-.6V2.8c0-.4.1-.6.4-.6s.4.2.4.6zM12 6V1.5h-.8v3.4c-.2.3-.3.4-.5.4c-.1 0-.2-.1-.2-.2V1.5h-.8V5c0 .3 0 .5.1.7c0 .2.2.3.5.3s.6-.2.9-.5V6zm.4 4.5c-.3 0-.4.2-.4.6v.4h.8v-.4c0-.4-.1-.6-.4-.6m-2.9 0c-.1 0-.3.1-.4.2v2.7c.1.1.3.2.4.2q.3 0 .3-.6v-1.9q0-.6-.3-.6" />
+                                <path fill="#0355cc"
+                                    d="M14.4 8.3C14.2 7.6 13.6 7 13 7c-1.6-.2-3.3-.2-5-.2s-3.3 0-5 .2c-.6 0-1.2.6-1.4 1.3c-.2 1-.2 2.1-.2 3.1s0 2.1.2 3.1c.2.7.7 1.2 1.4 1.3c1.7.2 3.3.2 5 .2s3.3 0 5-.2c.7-.1 1.3-.6 1.4-1.3c.2-1 .2-2.1.2-3.1s0-2.1-.2-3.1m-9.2.9h-1v5.1h-.9V9.2h-.9v-.9h2.8zm2.4 5.1h-.8v-.5c-.3.4-.6.5-.9.5s-.4-.1-.5-.3c0-.1-.1-.3-.1-.7V9.8h.8v3.5c0 .1.1.2.2.2c.2 0 .3-.1.5-.4V9.8h.8zm3-1.4c0 .4 0 .7-.1.9c-.1.3-.3.5-.6.5s-.6-.2-.8-.5v.4h-.8V8.3h.8v1.9c.3-.3.5-.5.8-.5s.5.2.6.5c.1.2.1.5.1.9zm3-.7H12v.8c0 .4.1.6.4.6c.2 0 .3-.1.4-.3v-.5h.8v.6c0 .2-.1.3-.2.5c-.2.3-.5.5-1 .5c-.4 0-.7-.2-1-.5c-.2-.2-.3-.6-.3-1v-1.5c0-.5.1-.8.2-1c.2-.3.5-.5 1-.5c.4 0 .7.2.9.5c.2.2.2.6.2 1v.8z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#0355cc"
+                                    d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="confr1">
+                    <p class="f-x">© <span id="displayDateYear">2024</span> All Rights Reserved <a target="_blank"
+                            rel="nofollow noopener" href="//html.design/">ABOSS</a></p>
+                </div>
+                    
+    </div>
+  </footer>
+    </body>
